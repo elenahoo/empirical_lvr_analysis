@@ -1,2 +1,2 @@
-# empirical_lvr_analysis
-Empirical LVR analysis on Ethereum and L2 
+# Empirical Analysis of AMM LVR
+Empirical LVR analysis of of UniswapV2 and UniswapV3 pools on Ethereum and L2 
