@@ -2,13 +2,13 @@
 
 This repository provides an **empirical analysis** of the **Liquidity-to-Value Ratio (LVR)** in **UniswapV2 WETH-USDC** pools on **Ethereum**, **Base**, and **Arbitrum**.
 
-The findings from this analysis were presented at [**DevCon SEA**](https://app.devcon.org/schedule/T8BXK3). You can find the recording of the talk via the link 👉 [here](https://www.youtube.com/watch?v=ArILIuH7G2U) and the slides 👉 [here](https://devcon.fileverse.io/devcon7/portal/files/view/0x8cf11a0b9a79487b15281ac81b8234c2).
+The findings from this analysis were presented at [**DevCon SEA**](https://app.devcon.org/schedule/T8BXK3). You can find the recording of the talk via the link 👉 [here](https://www.youtube.com/watch?v=ArILIuH7G2U) and the slides [here](https://devcon.fileverse.io/devcon7/portal/files/view/0x8cf11a0b9a79487b15281ac81b8234c2).
 
 This repository gives you the data and scripts used in the analysis as well as all the additional charts and code in the **Hex notebook**.
 
 ## Data
 ### UniswapV2
-The mint, burn, swap and sync data for WETH-USDC pool used in the analysis is shared in the data folder. 
+The mint, burn, swap and sync data for WETH-USDC pool used in the analysis is shared in the [data folder](https://github.com/elenahoo/empirical_lvr_analysis/tree/main/data). 
 
 The data is orignally downloaded from [Allium](https://app.allium.so/); you can also view the queries on Dune below (using Ethereum as an example) to get the same data:
 - [mint_event](https://dune.com/queries/4083011)
