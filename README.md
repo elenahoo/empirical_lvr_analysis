@@ -29,3 +29,11 @@ The full analysis can be found in the following **Hex notebooks**.
 - [LVR CamlotV2 Arbitrum](https://app.hex.tech/9eb1e790-53f7-4c16-be76-4a22c1aa7d17/app/0e62c9d8-06e0-417e-a2fd-52d43be5c894/latest)
 
 The comparison analysis across all chains can be found in the [LVR Constant Product Pool Comparison](https://app.hex.tech/9eb1e790-53f7-4c16-be76-4a22c1aa7d17/app/f3d37623-4fdd-443f-a6a7-f65fa5ce647a/latest) notebook.
+
+## TL;DR
+The summary findings from the LVR analysis using WETH-USDC constant product pool across Ethereum, Base and Arbitrum are:
+- The theoretical LVR from the original [LVR paper](https://arxiv.org/abs/2208.06046) provides a close enough estimation for the empirical LVR.
+- The difference between considering trading fee as a cost to the arbitrager ([LVR with fees paper](https://arxiv.org/pdf/2305.14604)) vs. without considering fees in LVR as a percentage of total pool value is ~0.2-0.3%. 
+- Shorter block time seems to result in lower LVR based on comparisons between Base (2s block time) and Ethereum (12s block time); the results from Arbitrum are inconclusive due to the low trading volume, low  number of swaps and liquidity in the pools.
+- Higher hedging frequency results in lower LVR based on simulations run at 1m, 5m, 1h, 4h and daily hedging frequency.
+- The difference between hedging (or arbitraging) on Perpetual (dYdX) and CEX (Binance) is not significant (note that this is only based on 1-month data from September 2024).
